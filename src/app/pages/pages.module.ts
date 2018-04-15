@@ -12,6 +12,8 @@ import { IncrementComponent } from '../components/increment/increment.component'
 import { ChartsModule } from 'ng2-charts';
 import { DoughnutChartComponent } from '../components/doughnut-chart/doughnut-chart.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RsjxComponent } from './rsjx/rsjx.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     Graph1Component,
     IncrementComponent,
     DoughnutChartComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromisesComponent,
+    RsjxComponent
   ],
   exports: [
     PagesComponent,
